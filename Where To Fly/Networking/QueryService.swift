@@ -17,7 +17,7 @@ class QueryService {
     private let defaultSession = URLSession(configuration: .default)
     private let headers = [
         "x-rapidapi-host": "aerodatabox.p.rapidapi.com",
-        "x-rapidapi-key": "7c2ef21543mshc7f7305f73f8507p123debjsn53a26bf04632"
+        "x-rapidapi-key": ""
     ]
     private let decoder = Utilities().configureJSONDecoder(dateFormat: "yyyy-MM-dd HH:mm")
     private let decoderForLocalTime = Utilities().configureJSONDecoder(dateFormat: "yyyy-MM-dd'T'HH:mm")
